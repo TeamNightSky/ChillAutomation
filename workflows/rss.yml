@@ -1,6 +1,5 @@
 on:
   rss:
-    
     url:
       # Church News
       - "https://newsroom.churchofjesuschrist.org/rss?lang=eng"
