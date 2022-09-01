@@ -31,10 +31,6 @@ on:
       - "https://www.sciencedaily.com/rss/all.xml"
         # output_channel: 960951873345560586
 
-      # Marvel News
-      - "https://api.earth616.org/api/rss/feed/marvel.com"
-        # output_channel: 960952441996730428
-
       # Quantamagazine Articles
       - "https://api.quantamagazine.org/feed/"
         # output_channel: 962458237020536942
