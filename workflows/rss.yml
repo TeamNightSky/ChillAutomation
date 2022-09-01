@@ -1,6 +1,87 @@
 on:
   rss:
-    url: https://hnrss.org/newest?points=300&count=3
+    
+    url:
+      # Church News
+      - "https://newsroom.churchofjesuschrist.org/rss?lang=eng"
+      # output_channel: 960952037430927370
+
+      # NASA Pic of the Day
+      - "https://www.nasa.gov/rss/dyn/lg_image_of_the_day.rss"
+      # output_channel: 960952116602630175
+
+      # Physics News
+      - "https://phys.org/rss-feed/nanotech-news/nano-materials/"
+        # output_channel: 960951973358759987
+      - "https://phys.org/rss-feed/physics-news/materials/"
+        # output_channel: 960951973358759987
+      - "https://phys.org/rss-feed/physics-news/optics-photonics/"
+        # output_channel: 960951973358759987
+      - "https://phys.org/rss-feed/physics-news/quantum-physics/"
+        # output_channel: 960951973358759987
+      - "https://phys.org/rss-feed/physics-news/superconductivity/"
+        # output_channel: 960951973358759987
+      - "https://phys.org/rss-feed/biology-news/microbiology/"
+        # output_channel: 960951973358759987
+      - "https://phys.org/rss-feed/biology-news/biotechnology/"
+        # output_channel: 960951973358759987
+      - "https://phys.org/rss-feed/chemistry-news/materials-science/"
+        # output_channel: 960951973358759987
+
+      # Science Daily News
+      - "https://www.sciencedaily.com/rss/all.xml"
+        # output_channel: 960951873345560586
+
+      # Marvel News
+      - "https://api.earth616.org/api/rss/feed/marvel.com"
+        # output_channel: 960952441996730428
+
+      # Quantamagazine Articles
+      - "https://api.quantamagazine.org/feed/"
+        # output_channel: 962458237020536942
+
+      # Science News
+      - "https://www.sciencenews.org/feed"
+        # output_channel: 962460755461038080
+
+      # MIT Feeds
+      - "https://news.mit.edu/rss/research"
+        # output_channel: 962460699018276934
+      - "https://news.mit.edu/rss/feed"
+        # output_channel: 962460557095628872
+
+      # Minecraft
+      - "https://minecraftglobal.com/feed"
+        # output_channel: 965791868078149652
+
+      # Science Alert
+      - "http://feeds.feedburner.com/sciencealert-latestnews?format=xml"
+        # output_channel: 966679153460002887
+
+      # Science Advances
+      - "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv"
+        # output_channel: 966679563910414426
+        # template: "================\n**{title}**\n{link}\n"
+
+      # Nature Materials News
+      - url: "https://www.nature.com/nmat.rss"
+        # output_channel: 968687600699338802
+
+      # Hackday
+      - url: "https://hackaday.com/blog/feed/"
+        # output_channel: 971242129521279016
+
+      # Google AI Blog
+      - url: "http://googleaiblog.blogspot.com/atom.xml"
+        # output_channel: 1014295478554337380
+
+      # Machine Learning is Fun
+      - "https://machinelearningmastery.com/feed/"
+        # output_channel: 1014295478554337380
+
+      # Towards Data Science
+      - "https://towardsdatascience.medium.com/feed"
+        # output_channel: 1014295478554337380
 jobs:
   print:
     name: Print
